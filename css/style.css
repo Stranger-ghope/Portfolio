@@ -492,7 +492,7 @@ c-form
 
 */
 .contact {
-    min-height: 600px;
+    min-height: fit-content;
     background-color: var(--darker-bg2);
     padding-bottom: 3rem ;
 

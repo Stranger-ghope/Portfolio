@@ -257,3 +257,39 @@ section.research .methods .method .img {
     width: 100%;
     background-color: #b7b7b7;
 }
+
+/* Wireframes */
+
+section.wireframes {
+    padding: 70px 1em;
+}
+section.wireframes .content .frame img,
+section.wireframes .content2 .frame img{
+    width: 100%;
+  
+}
+
+section.wireframes .content,
+section.wireframes .content2  {
+    display: flex;
+    padding-top: 1.5rem;
+    flex-direction: row;
+    gap: 1rem;
+    
+    
+}
+section.wireframes .content .frame,
+section.wireframes .content2 .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+section.prototype .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}

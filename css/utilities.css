@@ -46,6 +46,9 @@
 .white {
     color: #fff;
 }
+.faintwyt {
+    color: var(--font-body-color);
+}
 .yellow {
     color: var(--primary-color);
 }

@@ -15,6 +15,8 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+
 :root {
     --dark-bg1: #121212;
     --darker-bg2: #222121;
@@ -34,7 +36,7 @@ html {
 }
 
 /* basic default styling */
-p,span,button {
+p,span,button,ul,li {
     font-family: var(--body-font);
 }
 h1,h2,h3,h4,h5,h6 {
@@ -695,6 +697,8 @@ c-form
     .front-line .bg-grid {
         display: none;
     }
+
+    
     .big-intro {
         background: url('../img/main.jpg');
         background-repeat: no-repeat;
@@ -809,7 +813,7 @@ c-form
     }
 
     .about-me .me .me-details {
-        padding-left: 3rem;
+        padding: 0;
        border: none;
         display: flex;
         flex-direction: column;

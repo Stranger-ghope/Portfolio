@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="img/g.png">
+    <link rel="icon" type="image/x-icon" href="img/g.jpg">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="fonts/remixicon.css">
-    <title>Goodhope | Kalengo</title>
+    <title>Hi, It's Goodhope</title>
 </head>
 <body>
     <header>
@@ -292,24 +292,26 @@
     <!-- Footer / Contact Section -->
     <section class="contact" id="contact">
         <h1 class="hfont white al-c sec2">Contact</h1>
+        
 
         <div class="all-contact container">
-            <!-- <form action="">
+            
+            <form>
                 <div class="c-form">
-                    <input type="text" placeholder="Enter your name" name="name">
-                    <input type="email" placeholder="your email" name="name">
-                    <textarea type="text" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="text" placeholder="Enter your name" id="formname" name="name">
+                    <input type="email" placeholder="your email" id="formemail" name="email">
+                    <textarea type="text" name="" id="" id="formmessage" cols="30" rows="10"></textarea>
                     <div class="lastbtn">
-                        <button type="submit" class="button">Send</button>
+                        <button type="submit" id="form-btn" class="button">Send</button>
                     </div>
                 </div>
-            </form> -->
+            </form>
           
             <div class="c-info">
                 <p class="nfont">If you are seeking web development or UX design services, please do not hesitate to contact me.</p>
                 <div class="phone">
                     <a href=""><i class="ri-phone-line"></i></a>
-                    <a href="tel:+265886325397" class="nfont white"><p class="nfont">Reach out to me!</p></a>
+                    <a href="tel:+265886325397" class="nfont white"><p class="nfont">Call me!</p></a>
                 </div>
                 <div class="phone">
                 </a>
@@ -322,11 +324,11 @@
         <p class="nfont copyright">Designed by Goodhope 2024 &#169; Goodhope</p>
     </section>
 
-
-
-    <script src="js/script.js">
-
-    </script>
+    <!-- Email sender library -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- main js -->
+    <script src="js/script.js"></script>
+    <!-- swiper -->
     <script src="js/swiper-bundle.min.js"></script>
 </body>
 </html>

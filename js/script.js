@@ -38,3 +38,23 @@ for (var i = 0; i < linksNav.length; i++) {
 }
 
 
+// Send Email
+var formBtn = document.getElementById('form-btn');
+formBtn.addEventListener('click', function(){
+  e.preventDefault()
+  var name = document.getElementById('formname').value;
+  var email = document.getElementById('formemail').value;
+  var message = document.getElementById('formmessage').value;
+  var body = 'name: '+name + '<br/> email: ' + email +  '<br/> message: '+ message;
+
+
+  Email.send({
+    SecureToken : "5102d8d4-36e8-4fd7-8e9c-25f08b208fe7",
+    To : 'alltruth97@gmail.com',
+    From : "ghkalengo@gmail.com",
+    Subject : "Contact Message",
+    Body : body
+}).then(
+  message => alert(message)
+);
+})

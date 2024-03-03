@@ -540,9 +540,11 @@ c-form
  }
 
  .contact .all-contact .c-form input[type='text'],
- .contact .all-contact .c-form input[type='email'] {
+ .contact .all-contact .c-form input[type='email'], 
+ .contact .all-contact .c-form textarea[type='text'] {
     background: transparent;
     border: none;
+    font-family: var(--body-font);
     padding: 10px;
     border-radius: 10px;
     color: rgba(255, 255, 255, 0.9);

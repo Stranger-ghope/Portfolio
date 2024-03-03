@@ -40,8 +40,9 @@ for (var i = 0; i < linksNav.length; i++) {
 
 // Send Email
 var formBtn = document.getElementById('form-btn');
-formBtn.addEventListener('click', function(){
+formBtn.addEventListener('click', function(e){
   e.preventDefault()
+  console.log('hii');
   var name = document.getElementById('formname').value;
   var email = document.getElementById('formemail').value;
   var message = document.getElementById('formmessage').value;
@@ -49,9 +50,9 @@ formBtn.addEventListener('click', function(){
 
 
   Email.send({
-    SecureToken : "5102d8d4-36e8-4fd7-8e9c-25f08b208fe7",
-    To : 'alltruth97@gmail.com',
-    From : "ghkalengo@gmail.com",
+    SecureToken : "7b4c3bfc-bd0c-4cfd-b66a-802800684854",
+    To : "ghkalengo@gmail.com",
+    From : "alltruth97@gmail.com",
     Subject : "Contact Message",
     Body : body
 }).then(

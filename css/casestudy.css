@@ -7,6 +7,9 @@
     --case--sec-bot: 40px;
     --case--first-padding: 160px;
 }
+html,body {
+    overflow-x:hidden;
+}
 
 .wirefont {
     font-size: 15px;
@@ -72,20 +75,22 @@ section.top {
     right: 0;
 }
 .left {
-    display: flex;
+    display: none;
+    /* display: flex;
     flex-direction: column;
     height: 3500px;
     justify-content: space-between;
     top: 300px;
-    left: -4px;
+    left: 0; */
 }
 .right {
-    display: flex;
+    display: none;
+    /* display: flex;
     flex-direction: column;
-    right: -4px;
+    right: 0;
     top: 80px;
     height: 3500px;
-    justify-content: space-between;
+    justify-content: space-between; */
   
 }
 

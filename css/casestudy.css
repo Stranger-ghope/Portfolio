@@ -15,11 +15,7 @@
     letter-spacing: 0.4px;
     color: var(--font-body-color);
 }
-/* sticky button
-<div class="sticky-button">
-        <a href="">View the live Website</a>
-    </div>
-     */
+/* sticky button */
 .sticky-button {
     text-align: end;
     position: fixed;
@@ -29,12 +25,17 @@
 }
 .sticky-button a {
     text-decoration: none;
+    z-index: 5000000;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     background-color: var(--case-t-color);
-    padding: 10px 5px;
+    padding: 5px 5px;
     border-radius: 15px;
+}
+.sticky-button a:hover {
+    color: #DF1B1C;
+    background-color: white;
 }
 .breakline {
     display: none;
@@ -46,6 +47,10 @@
 }
 .casecolor {
     color: var(--case-t-color);
+    font-size: 20px;
+}
+.casecolor2 {
+    color: #DF1B1C;
     font-size: 20px;
 }
 
@@ -69,7 +74,7 @@ section.top {
 .left {
     display: flex;
     flex-direction: column;
-    height: 8500px;
+    height: 3500px;
     justify-content: space-between;
     top: 300px;
     left: -4px;
@@ -79,7 +84,7 @@ section.top {
     flex-direction: column;
     right: -4px;
     top: 80px;
-    height: 8500px;
+    height: 3500px;
     justify-content: space-between;
   
 }
@@ -510,12 +515,13 @@ section.lessons-step .content h2 {
 
     .left {
         left: -4px;
-        height: 9800px;
+        height: 4000px;
     }
     .right {
         right: -4px;
-        height: 9800px;
+        height: 4000px;
     }
+   
 
     section.process .all-process {
         display: grid;

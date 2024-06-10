@@ -78,7 +78,7 @@ section.top {
     display: none;
     /* display: flex;
     flex-direction: column;
-    height: 3500px;
+    height: 8100px;
     justify-content: space-between;
     top: 300px;
     left: 0; */
@@ -88,8 +88,8 @@ section.top {
     /* display: flex;
     flex-direction: column;
     right: 0;
-    top: 80px;
-    height: 3500px;
+    top: 350px;
+    height: 8700px;
     justify-content: space-between; */
   
 }
